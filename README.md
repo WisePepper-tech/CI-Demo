@@ -9,3 +9,5 @@ The CI pipeline runs:
 - Pytest (tests)
 
 Triggered on push and pull requests.
+
+![CI](https://github.com/WisePepper-tech/CI-Demo/actions/workflows/ci.yml/badge.svg)
