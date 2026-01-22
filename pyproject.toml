@@ -1,3 +1,7 @@
 [project]
-name = "devsecops-ci-demo"
+name = "ci-demo"
 version = "0.1.0"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
