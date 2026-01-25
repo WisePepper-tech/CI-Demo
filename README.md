@@ -14,8 +14,9 @@ flowchart TD
     D --> E[Bandit security scan]
     E --> F[Pip-audit dependency audit]
     F --> G[Run tests with pytest]
-    G --> H[Trivy FS scan (optional secrets scan)]
+    G --> H[Trivy FS scan - optional secrets scan]
     H --> I[CI complete ✅]
+```
 
 Triggered on push and pull requests.
 
